@@ -1,5 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+![image](public/ss1.png)
+![image](public/ss2.png)
+![image](public/ss3.png)
+
+```
+const data = {
+    SD: [1, 2, 3, 4, 5, 6],
+    SMP: [7, 8, 9],
+    SMA: [10, 11, 12],
+  };
+```
+
+```
+<SelectContent>
+    <SelectItem value="Sejarah">Sejarah</SelectItem>
+    <SelectItem value="Matematika">Matematika</SelectItem>
+    <SelectItem value="Fisika">Fisika</SelectItem>
+    <SelectItem value="Kimia">Kimia</SelectItem>
+    <SelectItem value="Bahasa Inggris">Bahasa Inggris</SelectItem>
+</SelectContent>
+```
+
 ## Getting Started
 
 First, run the development server:
